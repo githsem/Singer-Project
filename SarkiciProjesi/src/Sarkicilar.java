@@ -7,8 +7,8 @@ public class Sarkicilar {
     
     public void sarkicilari_bastir(){
         System.out.println("Sarkici Listesinde " + sarkici_listesi.size() + " kadar sarkici var");
-        for (int i=1; i<sarkici_listesi.size();i++){
-            System.out.println((i+1) +  "Sarkici : " + sarkici_listesi.get(i));
+        for (int i=0; i<sarkici_listesi.size();i++){
+            System.out.println((i+1) +  ". Sarkici : " + sarkici_listesi.get(i));
         }
     }
     public void sarkici_ekle(String isim){
