@@ -27,7 +27,7 @@ public class Test {
     }
     public static void sarkici_guncelle(){
         
-        System.out.println("Guncellemek Istediginiz Pozisyon(1,2,3) ");
+        System.out.println("Guncellemek Istediginiz Pozisyon(1,2,3,...) ");
         int pozisyon = scanner.nextInt();
         scanner.nextLine();
         

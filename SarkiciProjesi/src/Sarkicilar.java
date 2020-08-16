@@ -31,7 +31,7 @@ public class Sarkicilar {
         int pozisyon = sarkici_listesi.indexOf(sarkici_ismi);
         if (pozisyon >= 0){
             System.out.println("Sarkici Bulundu...");
-            System.out.println(sarkici_ismi + " isimli Sarkici" + (pozisyon+1) + ". pozisyonda ");
+            System.out.println(sarkici_ismi + " isimli Sarkici " + (pozisyon+1) + ". pozisyonda ");
         }
         else{
             System.out.println("Sarkici Bulunamadi...");
